@@ -1,1 +1,2 @@
-# forest-game
+# SimplePlatformer
+Small Platformer with basic controls
