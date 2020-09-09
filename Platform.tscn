@@ -4,24 +4,20 @@
 [ext_resource path="res://background/Layer_0000_9.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 74.8508, 4 )
+extents = Vector2( 48, 4 )
 
 [node name="Platform" type="StaticBody2D"]
-position = Vector2( 0, 0.92659 )
-scale = Vector2( 0.583541, 0.857202 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -1.38989, -0.463287 )
-scale = Vector2( 0.763244, -0.855739 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -1.38989, -44.4633 )
-scale = Vector2( -0.122196, 0.122567 )
+position = Vector2( 0, -44 )
+scale = Vector2( 0.102869, 0.121507 )
 texture = ExtResource( 1 )
 region_rect = Rect2( 20, 20, 0.707, 0 )
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( -1.38989, -13.3253 )
-scale = Vector2( 0.120142, 0.0448251 )
+position = Vector2( 0, -12.862 )
+scale = Vector2( 0.103, 0.043 )
 texture = ExtResource( 2 )
